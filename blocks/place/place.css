@@ -1,0 +1,21 @@
+@import url(./__image/place__image.css);
+@import url(./__link/place__link.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__website/place__wedsite.css);
+@import url(./__image/__image_hero/place__image_hero_kosa.css);
+@import url(./__image/__image_hero/place__image_hero_kolsky.css);
+@import url(./__image/__image_hero/place__image_hero_altai.css);
+@import url(./__image/__image_hero/place__image_hero_winter-baikal.css);
+@import url(./__image/__image_hero/place__image_hero_karelia.css);
+
+.place {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 48px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}

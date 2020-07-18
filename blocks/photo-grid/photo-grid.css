@@ -1,0 +1,15 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+  min-width: 288px;
+  margin: 0 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+
+}
