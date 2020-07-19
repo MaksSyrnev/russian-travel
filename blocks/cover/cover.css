@@ -1,7 +1,6 @@
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__backgraund/cover__background.css);
 @import url(./__link/cover__link.css);
 
 
@@ -11,6 +10,7 @@
   background-image: url(../../images/cover-trains.png);
   background-size: cover;
   background-position: bottom;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -18,4 +18,72 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 
+}
+
+@media all and (min-width: 321px) {
+  /* стили от малого смартфона к среднему */
+  .cover__overlay {
+    padding: 14.1% 0;
+  }
+  .cover__title {
+    width: calc( 100vw * .78 );
+    font-size: calc( 8.9vw + 3.5px );
+    line-height: 40px;
+  }
+}
+
+@media all and (min-width: 375px) {
+  /* стили от среднего смартфона к широкому */
+  .cover__overlay {
+    padding: 14.5%;
+  }
+
+  .cover__title {
+    width: 270px;
+    margin-bottom: 18px;
+    font-size: calc(8.9vw +3.5px);
+    line-height: 40px;
+  }
+
+}
+
+@media all and (min-width: 425px) {
+  /* стили от широкого смартфона к ландшафтному режиму */
+  .cover__overlay {
+    padding: 15%;
+  }
+/*
+  .cover__title {
+    width: 288px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    line-height: 42px;
+  }*/
+}
+
+@media all and (min-width: 465px) {
+  /*точка перелома */
+  .cover__overlay {
+    padding: 17%;
+  }
+  /*.cover__title {
+    width: 300px;
+    margin-bottom: 22px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+*/
+}
+
+@media all and (min-width: 544px) {
+  /* половина между маленьким смартом и планшетом */
+  .cover__overlay {
+    padding: 18%;
+  }
+ /* .cover__title {
+    width: 320px;
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 50px;
+  }*/
 }
