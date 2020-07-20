@@ -20,70 +20,36 @@
 
 }
 
+/* стили от малого смартфона к среднему */
 @media all and (min-width: 321px) {
-  /* стили от малого смартфона к среднему */
   .cover__overlay {
-    padding: 14.1% 0;
+    padding: calc( 100vw * .183 - 25px ) 0;
   }
+
   .cover__title {
-    width: calc( 100vw * .78 );
+    width: calc( 100vw * .647 + 40px );
     font-size: calc( 8.9vw + 3.5px );
-    line-height: 40px;
+    line-height: calc( 9.1vw + 5px );
   }
 }
 
-@media all and (min-width: 375px) {
-  /* стили от среднего смартфона к широкому */
+/*вертикальный планшет */
+@media all and (min-width: 768px) {
   .cover__overlay {
-    padding: 14.5%;
+    min-height: 480px;
+    padding: 0;
   }
 
   .cover__title {
-    width: 270px;
-    margin-bottom: 18px;
-    font-size: calc(8.9vw +3.5px);
-    line-height: 40px;
+    width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-bottom: 32px;
   }
 
-}
-
-@media all and (min-width: 425px) {
-  /* стили от широкого смартфона к ландшафтному режиму */
-  .cover__overlay {
-    padding: 15%;
+  .cover__subtitle {
+    width: 360px;
+    font-size: 18px;
+    line-height: 22px;
   }
-/*
-  .cover__title {
-    width: 288px;
-    margin-bottom: 20px;
-    font-size: 38px;
-    line-height: 42px;
-  }*/
-}
-
-@media all and (min-width: 465px) {
-  /*точка перелома */
-  .cover__overlay {
-    padding: 17%;
-  }
-  /*.cover__title {
-    width: 300px;
-    margin-bottom: 22px;
-    font-size: 40px;
-    line-height: 46px;
-  }
-*/
-}
-
-@media all and (min-width: 544px) {
-  /* половина между маленьким смартом и планшетом */
-  .cover__overlay {
-    padding: 18%;
-  }
- /* .cover__title {
-    width: 320px;
-    margin-bottom: 24px;
-    font-size: 44px;
-    line-height: 50px;
-  }*/
 }

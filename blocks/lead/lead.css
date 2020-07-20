@@ -7,3 +7,20 @@
   padding-top: 48px;
   font-size: 0;
 }
+
+/* стили от малого смартфона к среднему */
+@media all and (min-width: 321px) {
+  .lead__title {
+    width: calc( 100vw * .982 - 34px );
+    font-size: calc( 12.5vw );
+    line-height: calc( 12.5vw + 4px );
+    margin: 0 auto calc( 3.5vw + 4px );
+  }
+
+  .lead__subtitle {
+    width: calc( 100vw * .785 + 36px );
+    font-size: calc( 100vw * .031 + 6px );
+    line-height: calc( 100vw * .035 + 8px );
+    margin: 0 auto calc( 100vw * .035 + 28px );
+  }
+}
