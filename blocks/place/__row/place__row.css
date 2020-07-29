@@ -1,11 +1,10 @@
-.photo-grid__item {
-  width: 100%;
+.place__row {
+  display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 auto 12px;
 }
 
-.photo-grid__item:last-of-type {
+.place__row:last-of-type {
   margin: 0;
 }

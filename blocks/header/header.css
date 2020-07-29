@@ -2,14 +2,47 @@
 @import url(./__lang-link/_cheked/header__lang-link_cheked.css);
 @import url(./__logo/header__logo.css);
 @import url(./__menu/header__menu.css);
+
 .header {
-  min-width: 320px;
   display: flex;
   justify-content: space-between;
-  vertical-align: top;
+  vertical-align: flex-end;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0 16px;
+}
+/*
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+*/
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 24px;
+  }
+
+  .header__logo {
+    width: 176px;
+    height: 52px;
+    margin: 28px 0 0;
+  }
+
+  .header__menu {
+    margin-top: 46px;
+  }
+
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 
 
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 0 48px;
+  }
 }

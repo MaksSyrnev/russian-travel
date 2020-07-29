@@ -8,6 +8,9 @@
 @import url(./__image/__image_hero/place__image_hero_altai.css);
 @import url(./__image/__image_hero/place__image_hero_winter-baikal.css);
 @import url(./__image/__image_hero/place__image_hero_karelia.css);
+@import url(./__row/place__row.css);
+@import url(./__column/place__column.css);
+@import url(./__url-heading/place__url-heading.css);
 
 .place {
   -webkit-box-sizing: border-box;
@@ -18,4 +21,92 @@
 
 .place:last-of-type {
   padding-bottom: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .place {
+    padding: 0 24px 72px;
+  }
+
+  .place__image {
+    margin-bottom: 0;
+  }
+
+  .place__website {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .place__row {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+  }
+
+  .place__title {
+    width: 97%;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0;
+  }
+
+  .place__column {
+    min-width: 340px;
+    margin-right: 28px;
+  }
+
+  .place__paragraph {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .place__paragraph:last-of-type {
+    margin: 0;
+  }
+}
+
+/*планшеты и ноутбуки*/
+@media screen and (min-width: 1024px) {
+  .place {
+    padding: 0 48px 80px;
+  }
+
+  .place__column {
+    min-width: 440px;
+    margin-right: 32px;
+  }
+
+  .place__title {
+    width: 440px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+/*широкие экраны */
+@media screen and (min-width: 1280px) {
+  .place {
+    padding: 0 148px 80px;
+  }
+
+  .place__column {
+    min-width: 460px;
+    margin-right: 40px;
+  }
+
+  .place__title {
+    width: 460px;
+  }
+
 }

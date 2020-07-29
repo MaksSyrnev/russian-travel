@@ -1,5 +1,14 @@
 .header__logo {
+  display: block;
+  background-image: url(../../../images/header-logo.svg);
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
   width: 142px;
   height: 42px;
-  margin: 16px 0 0 16px;
+  margin: 16px 0 0;
+}
+
+.header__logo:hover {
+  opacity: .8;
 }

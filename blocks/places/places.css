@@ -1,6 +1,27 @@
 .places {
+  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 64px 0;
+}
+
+@media all and (min-width: 768px) {
+  .places {
+    padding: 88px 0;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .places {
+    padding: 92px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .places {
+    max-width: 1280px;
+  }
 }

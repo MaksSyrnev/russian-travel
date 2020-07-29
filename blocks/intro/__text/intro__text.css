@@ -5,4 +5,7 @@ font-size: 16px;
 line-height: 26px;
 color: #ffffff;
 margin: 0 16px 32px;
+-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }

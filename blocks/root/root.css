@@ -3,7 +3,6 @@
   max-width: 1280px;
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-
   font-family: 'Inter', 'Arial','Helvetica', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -16,10 +15,30 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
 }
+
+.page__bgcolor {
+  background-color: #2a2c2f;
+}
+
 /*
+div {
+  border: solid 1px red;
+}
+
 .content {
 
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    min-width: 1024px;
+  }
 }
 */

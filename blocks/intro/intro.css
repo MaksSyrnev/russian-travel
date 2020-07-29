@@ -3,5 +3,78 @@
 @import url(./__list/intro__list.css);
 
 .intro {
+  width: 100%;
   padding: 64px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 460px) {
+  .intro__title {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    max-width: 768px;
+    padding: 88px 0;
+  }
+
+  .intro__title {
+    width: 720px;
+    margin: 0 24px 40px;
+    font-size: 54px;
+    line-height: 58px;
+  }
+
+  .intro__text {
+    margin: 0 24px 32px;
+  }
+
+  .intro__list {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-width: 1024px;
+    padding: 92px 0;
+    margin: 0 auto;
+  }
+
+  .intro__title {
+    width: 690px;
+    margin-left: 48px;
+  }
+
+  .intro__text {
+    width: 690px;
+    margin-left: 48px;
+  }
+
+  .intro__list {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+   max-width: 1280px;
+  }
+
+  .intro__title {
+    margin-left: 148px;
+  }
+
+  .intro__text {
+    margin-left: 148px;
+  }
+
+  .intro__list {
+    margin-left: 148px;
+  }
+
 }

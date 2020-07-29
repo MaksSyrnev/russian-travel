@@ -6,6 +6,9 @@
 .lead {
   padding-top: 48px;
   font-size: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* стили от малого смартфона к среднему */
@@ -22,5 +25,62 @@
     font-size: calc( 100vw * .031 + 6px );
     line-height: calc( 100vw * .035 + 8px );
     margin: 0 auto calc( 100vw * .035 + 28px );
+  }
+}
+
+/* стили планшета от вертикального к ландшафтному */
+@media screen and (min-width: 768px) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .lead__title {
+    width: 720px;
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0 24px 32px;
+  }
+
+  .lead__subtitle {
+    width: 640px;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 64px 56px;
+  }
+
+  .lead__caption {
+    align-self: flex-start;
+    margin-left: 24px;
+ }
+
+  .lead__image {
+    max-width: 928px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    width: 928px;
+    margin: 8px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .lead__image {
+    min-width: 984px;
+  }
+
+  .lead__caption {
+    width: 984px;
   }
 }
