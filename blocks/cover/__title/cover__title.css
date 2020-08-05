@@ -10,3 +10,20 @@
 
 }
 
+@media all and (min-width: 321px) {
+  .cover__title {
+    width: calc( 100vw * .647 + 40px );
+    font-size: calc( 8.9vw + 3.5px );
+    line-height: calc( 9.1vw + 5px );
+  }
+}
+
+/*вертикальный планшет */
+@media all and (min-width: 768px) {
+  .cover__title {
+    width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-bottom: 32px;
+  }
+}

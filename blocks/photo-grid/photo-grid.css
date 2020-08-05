@@ -1,46 +1,19 @@
+@import url(./__gallery/photo-grid__gallery.css);
+@import url(./__gallery-item/photo-grid__gallery-item.css);
 @import url(./__item/photo-grid__item.css);
+
 
 .photo-grid {
   padding: 0 16px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-start;
-  align-items: center;
-}
-
-@media all and (min-width: 616px) {
-  .photo-grid{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(284px, 352px));
-    grid-gap: 16px;
-    justify-content: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-     box-sizing: border-box;
-  }
-
-  .photo-grid__item {
-    margin: 0;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .photo-grid {
     padding: 0 24px;
-    grid-template-columns: repeat(2, minmax(352px, 429.5px));
   }
-}
-
-@media screen and (min-width: 924px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, minmax(284px, 300px));
-    grid-gap: 14px;
-  }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -51,9 +24,7 @@
 
 @media screen and (min-width: 1216px) {
   .photo-grid {
-    grid-template-columns: repeat(4, 284px);
-    grid-gap: 16px;
     padding: 0 auto;
   }
-
 }
+

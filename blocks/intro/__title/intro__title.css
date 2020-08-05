@@ -9,3 +9,31 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 460px) {
+  .intro__title {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    width: 720px;
+    margin: 0 24px 40px;
+    font-size: 54px;
+    line-height: 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    width: 690px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    margin-left: 148px;
+  }
+}

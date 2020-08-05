@@ -1,8 +1,27 @@
 .place__image {
   margin-bottom: 32px;
   width: 100%;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: center;
+  height: 100%;
  }
 
+ @media screen and (min-width: 768px) {
+  .place__image {
+    min-width: 340px;
+    margin-right: 28px;
+    margin-bottom: 0;
+  }
+ }
+
+ @media screen and (min-width: 1024px) {
+  .place__image {
+    min-width: 440px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    min-width: 460px;
+    margin-right: 40px;
+  }
+}

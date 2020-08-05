@@ -7,5 +7,24 @@
   text-transform: uppercase;
   color: #ffffff;
   margin: 8px 0 0 16px;
+}
 
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    align-self: flex-start;
+    margin-left: 24px;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    width: 928px;
+    margin: 8px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    width: 984px;
+  }
 }

@@ -2,12 +2,22 @@
   list-style: none;
   padding: 0;
   margin: 0 16px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 18px;
-  color: #ffffff;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__list {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__list {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    margin-left: 148px;
+  }
 }

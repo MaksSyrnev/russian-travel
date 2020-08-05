@@ -1,0 +1,14 @@
+.photo-grid__gallery-item {
+  font-size: 0;
+  margin: 0 auto 12px;
+}
+
+.photo-grid__gallery-item:last-of-type {
+  margin: 0;
+}
+
+@media all and (min-width: 616px) {
+  .photo-grid__gallery-item {
+    margin: 0;
+  }
+}

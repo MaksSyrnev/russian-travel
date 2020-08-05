@@ -5,13 +5,15 @@
   line-height: 24px;
   text-decoration: none;
   color: #ffffff;
-  margin-right: 18px;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

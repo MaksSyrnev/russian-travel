@@ -19,3 +19,34 @@
   background-color: #2a2c2f;
   opacity: 0.8;
 }
+
+@media all and (min-width: 321px) {
+  .cover__overlay {
+    padding: calc( 100vw * .183 - 25px ) 0;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+    padding: 115px 0;
+   }
+  }
+
+  @media all and (min-width: 769px) {
+    .cover__overlay {
+      padding: calc( 100vw * .3125 - 125px ) 0;
+    }
+  }
+
+  @media all and (min-width: 1024px) {
+    .cover__overlay {
+      padding: 195px 0;
+    }
+  }
+
+  @media all and (min-width: 1184px) {
+    .cover__overlay {
+      padding: 245px 0;
+    }
+  }

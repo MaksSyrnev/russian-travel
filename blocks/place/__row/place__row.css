@@ -1,5 +1,4 @@
 .place__row {
-  display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -7,4 +6,12 @@
 
 .place__row:last-of-type {
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place__row {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+  }
 }
