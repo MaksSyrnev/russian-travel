@@ -9,7 +9,8 @@
 * HTML5
 * CSS3
 * Файловая структура БЭМ Nested
+* Адаптивная верстка
 
-* [Проект на GitHub Pages](https://makssyrnev.github.io/russian-travel/)
+* [Посмотреть на GitHub Pages](https://makssyrnev.github.io/russian-travel/)
 
 Благодарю за внимание!
