@@ -12,5 +12,3 @@
 * Адаптивная верстка
 
 * [Посмотреть на GitHub Pages](https://makssyrnev.github.io/russian-travel/)
-
-Благодарю за внимание!
